@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://MoSamir44115.github.io/",
+  "homepage": "https://MoSamir44115.github.io/login",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
