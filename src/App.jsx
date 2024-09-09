@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import Home from './components/Home/Home'
 import Brands from './components/Brands/Brands'
@@ -26,7 +26,7 @@ import Orders from './components/Orders/Orders'
 
 let query = new QueryClient()
 
-let x = createBrowserRouter([
+let x = createHashRouter([
   {
     path: '',
     element: <Layout></Layout>,
