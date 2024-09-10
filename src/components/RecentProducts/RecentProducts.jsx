@@ -129,7 +129,7 @@ export default function RecentProducts () {
               >
                 Add To Cart
               </button>
-                <i onClick={()=>setFlag(!flag)} className={`${flag?'fa-heart':'fa-heart-crack'} cursor-pointer fa-solid ps-1 fa-2xl  text-green-600 `}><span className='text-base flex justify-center'>Wish List</span></i>
+                {/* <i onClick={()=>setFlag(!flag)} className={`${flag?'fa-heart':'fa-heart-crack'} cursor-pointer fa-solid ps-1 fa-2xl  text-green-600 `}><span className='text-base flex justify-center'>Wish List</span></i> */}
             </div>
           </>
         ))}
